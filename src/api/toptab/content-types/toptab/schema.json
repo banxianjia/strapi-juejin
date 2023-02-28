@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "toptabs",
+  "info": {
+    "singularName": "toptab",
+    "pluralName": "toptabs",
+    "displayName": "Toptab",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "hasRed": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "redtab": {
+      "type": "string"
+    }
+  }
+}
